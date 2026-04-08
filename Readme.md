@@ -10,7 +10,7 @@
 ---
 
 ## 1. PROJECT OVERVIEW
-[cite_start]The **Campus Resource Optimizer** is an integrated management system designed to address the critical challenges of resource allocation and infrastructure transparency within university environments[cite: 1]. [cite_start]The platform facilitates the real-time tracking, prediction, and optimization of both spatial assets (such as laboratories and study rooms) and essential consumable resources (such as LPG and water supplies)[cite: 1].
+The **Campus Resource Optimizer** is an integrated management system designed to address the critical challenges of resource allocation and infrastructure transparency within university environments[cite: 1]. [cite_start]The platform facilitates the real-time tracking, prediction, and optimization of both spatial assets (such as laboratories and study rooms) and essential consumable resources (such as LPG and water supplies)[cite: 1].
 
 ## 2. TEAM IDENTITY: VIBE CODERZ
 <div align="center">
@@ -24,23 +24,23 @@
 </div>
 
 ## 3. PROBLEM ANALYSIS
-[cite_start]Contemporary campus management often suffers from fragmented data and lack of centralized visibility, leading to several operational inefficiencies:
+Contemporary campus management often suffers from fragmented data and lack of centralized visibility, leading to several operational inefficiencies:
 
 * **Critical Infrastructure Scarcity**: Geopolitical factors and extreme weather conditions have resulted in unpredictable shortages of **LPG cylinders** and **water supplies**, necessitating real-time level tracking.
 * **Spatial Underutilization**: Libraries and study rooms experience extreme "ghost booking" or overcrowding, particularly during disparate examination schedules across different academic years.
 * **Management Complexity**: New students often face significant confusion regarding resource availability and financial management within the campus ecosystem.
 
 ## 4. PROPOSED SOLUTION
-[cite_start]Our solution provides a unified digital library and resource manager where students and administrators can interact with campus infrastructure through a data-driven interface.
+Our solution provides a unified digital library and resource manager where students and administrators can interact with campus infrastructure through a data-driven interface.
 
 ### Core Functionalities:
-* [cite_start]**Unified Resource Listing**: A comprehensive directory of all campus assets, categorized by type and capacity[cite: 1].
-* [cite_start]**Dynamic Availability Tracking**: Real-time status updates reflecting whether a resource is currently available, booked, or under maintenance[cite: 1].
-* [cite_start]**Intelligent Booking System**: A conflict-resolution engine that validates time-window requests to prevent overlapping reservations[cite: 1].
-* [cite_start]**Usage Insights Engine**: A predictive model that analyzes historical usage patterns to provide a **Busyness Score (0-100%)** for any given time-slot[cite: 1].
+**Unified Resource Listing**: A comprehensive directory of all campus assets, categorized by type and capacity[cite: 1].
+**Dynamic Availability Tracking**: Real-time status updates reflecting whether a resource is currently available, booked, or under maintenance[cite: 1].
+**Intelligent Booking System**: A conflict-resolution engine that validates time-window requests to prevent overlapping reservations[cite: 1].
+**Usage Insights Engine**: A predictive model that analyzes historical usage patterns to provide a **Busyness Score (0-100%)** for any given time-slot[cite: 1].
 
 ## 5. TECHNICAL ARCHITECTURE
-[cite_start]The system utilizes a modular, scalable architecture to ensure high performance and low latency.
+The system utilizes a modular, scalable architecture to ensure high performance and low latency.
 
 <div align="center">
   <img src="https://via.placeholder.com/600x300?text=System+Architecture+Diagram" alt="Architecture Diagram">
