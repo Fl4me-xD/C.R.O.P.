@@ -1,11 +1,13 @@
+Here is the properly formatted file. I have wrapped the entire file in a secure block so you can use the "Copy code" button in the top right corner of the block below to grab it exactly as it should be without any syntax breaking:
+
 <div align="center">
   <h1>CAMPUS RESOURCE OPTIMIZER PROTOCOL [C.R.O.P]</h1>
   <h3><i>Smart Utilization of Shared Campus Infrastructure</i></h3>
 </div>
 
 <div align="center">
-  <a href="https://postimg.cc/q62VXcvF">
-    <img src="https://i.postimg.cc/L5b9SNKm/wmremove-transformed.png" alt="C.R.O.P Project Banner" width="800">
+  <a href="[https://postimg.cc/q62VXcvF](https://postimg.cc/q62VXcvF)">
+    <img src="[https://i.postimg.cc/L5b9SNKm/wmremove-transformed.png](https://i.postimg.cc/L5b9SNKm/wmremove-transformed.png)" alt="C.R.O.P Project Banner" width="800">
   </a>
 </div>
 
@@ -43,10 +45,6 @@ Our solution provides a unified digital library and resource manager where stude
 
 ## 5. TECHNICAL ARCHITECTURE
 The system utilizes a modular, scalable architecture to ensure high performance and low latency.
-
-<div align="center">
-  <img src="https://via.placeholder.com/600x300?text=C.R.O.P+System+Architecture" alt="Architecture Diagram">
-</div>
 
 ```mermaid
 graph TD
@@ -93,12 +91,13 @@ graph TD
     UI <-->|HTTP REST / JSON| Endpoints
     
     ORM <-->|Reads/Writes| SQLite
+```
 
 ### Tech Stack Details:
 | Layer | Technology | Rationale |
 | :--- | :--- | :--- |
-| **Frontend** | **Next.js (App Router)** | For responsive, server-side rendered user interfaces. |
-| **Styling** | **Tailwind CSS** | Utilizing a high-contrast, premium dark-mode aesthetic. |
+| **Frontend** | **Vite + React (TypeScript)** | For fast, client-side rendered, highly responsive user interfaces. |
+| **Styling** | **Tailwind CSS + Shadcn** | Utilizing a high-contrast, premium dark-mode aesthetic with accessible components. |
 | **State Management** | **Zustand** | To handle role-switching and real-time UI state updates. |
 | **Backend** | **Python (FastAPI)** | Chosen for high-speed performance and automated documentation. |
 | **Database** | **SQLite (SQLAlchemy)** | For reliable relational data storage with minimal overhead. |
@@ -126,3 +125,4 @@ To deploy the project locally, follow these standardized steps:
 ```bash
 pip install fastapi uvicorn sqlalchemy
 python main.py
+```
