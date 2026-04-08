@@ -48,6 +48,52 @@ The system utilizes a modular, scalable architecture to ensure high performance 
   <img src="https://via.placeholder.com/600x300?text=C.R.O.P+System+Architecture" alt="Architecture Diagram">
 </div>
 
+```mermaid
+graph TD
+    %% Define Styles
+    classDef frontend fill:#3b82f6,stroke:#1d4ed8,stroke-width:2px,color:#fff;
+    classDef backend fill:#10b981,stroke:#047857,stroke-width:2px,color:#fff;
+    classDef db fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#fff;
+    classDef user fill:#6366f1,stroke:#4338ca,stroke-width:2px,color:#fff;
+
+    %% Actors
+    Student((Student User)):::user
+    Admin((Management/Teacher)):::user
+
+    %% Frontend Block
+    subgraph Frontend ["Frontend UI (Vite + React + TS)"]
+        UI["React Components (Shadcn + Tailwind)"]:::frontend
+        State["Zustand State Management"]:::frontend
+        Router["React Router DOM"]:::frontend
+    end
+
+    %% Backend Block
+    subgraph Backend ["Backend API (Python FastAPI)"]
+        Endpoints["FastAPI Endpoints (CORS Enabled)"]:::backend
+        Predictor["AI Predictor Engine"]:::backend
+        ORM["SQLAlchemy ORM Models"]:::backend
+        
+        Endpoints <--> Predictor
+        Endpoints <--> ORM
+    end
+
+    %% Database Block
+    subgraph DatabaseLayer ["Data Persistence"]
+        SQLite[(SQLite DB)]:::db
+        Tables["Resources | Bookings | Issues"]:::db
+        SQLite --- Tables
+    end
+
+    %% Connections
+    Student -->|Interacts with| UI
+    Admin -->|Admin Dashboard| UI
+    UI <-->|Uses| State
+    UI <-->|Navigates| Router
+    
+    UI <-->|HTTP REST / JSON| Endpoints
+    
+    ORM <-->|Reads/Writes| SQLite
+
 ### Tech Stack Details:
 | Layer | Technology | Rationale |
 | :--- | :--- | :--- |
