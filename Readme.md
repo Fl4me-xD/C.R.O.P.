@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x200?text=Campus+Resource+Optimizer+Banner" alt="Project Banner" width="800">
+  <img src="https://ibb.co/gbMmLBvj" alt="Project Banner" width="800">
 </div>
 
 ---
