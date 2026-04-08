@@ -10,7 +10,7 @@
 ---
 
 ## 1. PROJECT OVERVIEW
-The **Campus Resource Optimizer** is an integrated management system designed to address the critical challenges of resource allocation and infrastructure transparency within university environments[cite: 1]. [cite_start]The platform facilitates the real-time tracking, prediction, and optimization of both spatial assets (such as laboratories and study rooms) and essential consumable resources (such as LPG and water supplies)[cite: 1].
+The **Campus Resource Optimizer** is an integrated management system designed to address the critical challenges of resource allocation and infrastructure transparency within university environments.The platform facilitates the real-time tracking, prediction, and optimization of both spatial assets (such as laboratories and study rooms) and essential consumable resources (such as LPG and water supplies).
 
 ## 2. TEAM IDENTITY: VIBE CODERZ
 <div align="center">
@@ -34,10 +34,10 @@ Contemporary campus management often suffers from fragmented data and lack of ce
 Our solution provides a unified digital library and resource manager where students and administrators can interact with campus infrastructure through a data-driven interface.
 
 ### Core Functionalities:
-**Unified Resource Listing**: A comprehensive directory of all campus assets, categorized by type and capacity[cite: 1].
-**Dynamic Availability Tracking**: Real-time status updates reflecting whether a resource is currently available, booked, or under maintenance[cite: 1].
-**Intelligent Booking System**: A conflict-resolution engine that validates time-window requests to prevent overlapping reservations[cite: 1].
-**Usage Insights Engine**: A predictive model that analyzes historical usage patterns to provide a **Busyness Score (0-100%)** for any given time-slot[cite: 1].
+**Unified Resource Listing**: A comprehensive directory of all campus assets, categorized by type and capacity.
+**Dynamic Availability Tracking**: Real-time status updates reflecting whether a resource is currently available, booked, or under maintenance.
+**Intelligent Booking System**: A conflict-resolution engine that validates time-window requests to prevent overlapping reservations.
+**Usage Insights Engine**: A predictive model that analyzes historical usage patterns to provide a **Busyness Score (0-100%)** for any given time-slot.
 
 ## 5. TECHNICAL ARCHITECTURE
 The system utilizes a modular, scalable architecture to ensure high performance and low latency.
