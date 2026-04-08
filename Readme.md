@@ -90,7 +90,8 @@ graph TD
     
     ORM <-->|Reads/Writes| SQLite
 ```
-
+<div align="center">
+  
 ### Tech Stack Details:
 | Layer | Technology | Rationale |
 | :--- | :--- | :--- |
@@ -99,6 +100,8 @@ graph TD
 | **State Management** | **Zustand** | To handle role-switching and real-time UI state updates. |
 | **Backend** | **Python (FastAPI)** | Chosen for high-speed performance and automated documentation. |
 | **Database** | **SQLite (SQLAlchemy)** | For reliable relational data storage with minimal overhead. |
+
+</div>
 
 ## 6. ROLE-BASED DIFFERENTIATION
 The platform implements distinct visual and functional experiences based on the user's role:
@@ -109,12 +112,16 @@ The platform implements distinct visual and functional experiences based on the 
 ## 7. API SPECIFICATIONS
 The backend exposes several critical endpoints for frontend integration:
 
+<div align="center">
+  
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
 | `GET` | `/resources` | Retrieves all spatial assets and their current occupancy status. |
 | `POST` | `/book` | Validates and creates a new resource reservation. |
 | `GET` | `/predict/{id}` | Calculates the predicted congestion level for a specific resource. |
 | `GET` | `/admin/dashboard` | Aggregates campus-wide metrics for administrative review. |
+
+</div>
 
 ## 8. INSTALLATION AND SETUP
 To deploy the project locally, follow these standardized steps:
