@@ -1,5 +1,3 @@
-Here is the properly formatted file. I have wrapped the entire file in a secure block so you can use the "Copy code" button in the top right corner of the block below to grab it exactly as it should be without any syntax breaking:
-
 <div align="center">
   <h1>CAMPUS RESOURCE OPTIMIZER PROTOCOL [C.R.O.P]</h1>
   <h3><i>Smart Utilization of Shared Campus Infrastructure</i></h3>
