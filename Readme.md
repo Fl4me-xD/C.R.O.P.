@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>CAMPUS RESOURCE OPTIMIZER PROTOCOL [C.R.O.P]</h1>
+  <h1>CAMPUS RESOURCE OPTIMIZER</h1>
   <h3><i>Smart Utilization of Shared Campus Infrastructure</i></h3>
 </div>
 
