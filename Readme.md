@@ -4,8 +4,8 @@
 </div>
 
 <div align="center">
-  <a href="https://postimg.cc/k6hkd1Bz">
-    <img src="https://i.postimg.cc/Fz9m3wmr/AZ1s-HBpcr7HIPN1sb-A0qew-AZ1s-HBpc-VVyclb9Kua-ULr-Q.jpg" alt="C.R.O.P Project Banner" width="800">
+  <a href="https://postimg.cc/q62VXcvF">
+    <img src="https://i.postimg.cc/L5b9SNKm/wmremove-transformed.png" alt="C.R.O.P Project Banner" width="800">
   </a>
 </div>
 
@@ -18,10 +18,10 @@ The **Campus Resource Optimizer Protocol [C.R.O.P]** is an integrated management
 <div align="center">
 
 | Name | Role | Identification |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | **Nilay Gurdasani** | Backend Developer | 25BAI10563 |
 | **Keshav Maheshwari** | Frontend Developer | 25BAI11223 |
-| **Tarun Sengar** | Documentation & Quality Assurance | 25BAI11119 |
+| **Tarun Sengar** | Documentation & Database Management | 25BAI11119 |
 
 </div>
 
