@@ -4,13 +4,15 @@
 </div>
 
 <div align="center">
-  <img src="https://ibb.co/gbMmLBvj" alt="Project Banner" width="800">
+  <a href="https://postimg.cc/k6hkd1Bz">
+    <img src="https://i.postimg.cc/Fz9m3wmr/AZ1s-HBpcr7HIPN1sb-A0qew-AZ1s-HBpc-VVyclb9Kua-ULr-Q.jpg" alt="C.R.O.P Project Banner" width="800">
+  </a>
 </div>
 
 ---
 
 ## 1. PROJECT OVERVIEW
-The **Campus Resource Optimizer** is an integrated management system designed to address the critical challenges of resource allocation and infrastructure transparency within university environments.The platform facilitates the real-time tracking, prediction, and optimization of both spatial assets (such as laboratories and study rooms) and essential consumable resources (such as LPG and water supplies).
+The **Campus Resource Optimizer Protocol [C.R.O.P]** is an integrated management system designed to address the critical challenges of resource allocation and infrastructure transparency within university environments. The platform facilitates the real-time tracking, prediction, and optimization of both spatial assets (such as laboratories and study rooms) and essential consumable resources (such as LPG and water supplies).
 
 ## 2. TEAM IDENTITY: VIBE CODERZ
 <div align="center">
@@ -28,22 +30,22 @@ Contemporary campus management often suffers from fragmented data and lack of ce
 
 * **Critical Infrastructure Scarcity**: Geopolitical factors and extreme weather conditions have resulted in unpredictable shortages of **LPG cylinders** and **water supplies**, necessitating real-time level tracking.
 * **Spatial Underutilization**: Libraries and study rooms experience extreme "ghost booking" or overcrowding, particularly during disparate examination schedules across different academic years.
-* **Management Complexity**: New students often face significant confusion regarding resource availability and financial management within the campus ecosystem.
+* **Management Complexity**: New students often face significant confusion regarding resource availability and logistical coordination within the campus ecosystem.
 
 ## 4. PROPOSED SOLUTION
 Our solution provides a unified digital library and resource manager where students and administrators can interact with campus infrastructure through a data-driven interface.
 
 ### Core Functionalities:
-**Unified Resource Listing**: A comprehensive directory of all campus assets, categorized by type and capacity.
-**Dynamic Availability Tracking**: Real-time status updates reflecting whether a resource is currently available, booked, or under maintenance.
-**Intelligent Booking System**: A conflict-resolution engine that validates time-window requests to prevent overlapping reservations.
-**Usage Insights Engine**: A predictive model that analyzes historical usage patterns to provide a **Busyness Score (0-100%)** for any given time-slot.
+* **Unified Resource Listing**: A comprehensive directory of all campus assets, categorized by type and capacity.
+* **Dynamic Availability Tracking**: Real-time status updates reflecting whether a resource is currently available, booked, or under maintenance.
+* **Intelligent Booking System**: A conflict-resolution engine that validates time-window requests to prevent overlapping reservations.
+* **Usage Insights Engine**: A predictive model that analyzes historical usage patterns to provide a **Busyness Score (0-100%)** for any given time-slot.
 
 ## 5. TECHNICAL ARCHITECTURE
 The system utilizes a modular, scalable architecture to ensure high performance and low latency.
 
 <div align="center">
-  <img src="https://via.placeholder.com/600x300?text=System+Architecture+Diagram" alt="Architecture Diagram">
+  <img src="https://via.placeholder.com/600x300?text=C.R.O.P+System+Architecture" alt="Architecture Diagram">
 </div>
 
 ### Tech Stack Details:
@@ -58,7 +60,7 @@ The system utilizes a modular, scalable architecture to ensure high performance 
 ## 6. ROLE-BASED DIFFERENTIATION
 The platform implements distinct visual and functional experiences based on the user's role:
 
-* **Student View**: Optimized for individual productivity. Focuses on personal reservations, study room availability, and receiving high-level alerts regarding critical consumable shortages (e.g., Water/LPG alerts).
+* **Student View**: Optimized for individual productivity. Focuses on personal reservations, study room availability, and receiving high-level alerts regarding critical consumable shortages.
 * **Management/Teacher View**: Optimized for administrative oversight. Provides granular data on resource levels (e.g., exact cylinder counts per hostel block), maintenance controls, and laboratory management.
 
 ## 7. API SPECIFICATIONS
