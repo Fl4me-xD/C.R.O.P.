@@ -4,8 +4,8 @@
 </div>
 
 <div align="center">
-  <a href="[https://postimg.cc/q62VXcvF](https://postimg.cc/q62VXcvF)">
-    <img src="[![wmremove-transformed.png](https://i.postimg.cc/L5b9SNKm/wmremove-transformed.png)](https://postimg.cc/q62VXcvF)" alt="C.R.O.P Project Banner" width="800">
+  <a href="https://postimg.cc/q62VXcvF">
+    <img src="https://i.postimg.cc/L5b9SNKm/wmremove-transformed.png" alt="C.R.O.P Project Banner" width="800">
   </a>
 </div>
 
