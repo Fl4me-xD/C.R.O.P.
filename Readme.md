@@ -118,8 +118,11 @@ The backend exposes several critical endpoints for frontend integration:
 | :--- | :--- | :--- |
 | `GET` | `/resources` | Retrieves all spatial assets and their current occupancy status. |
 | `POST` | `/book` | Validates and creates a new resource reservation. |
-| `GET` | `/predict/{id}` | Calculates the predicted congestion level for a specific resource. |
+| `GET` | `/predict/{resource_id}` | Calculates the predicted congestion level for a specific resource. |
 | `GET` | `/admin/dashboard` | Aggregates campus-wide metrics for administrative review. |
+| `POST` | `/report-issue` | Logs an issue and auto-flags the resource for maintenance. |
+| `POST` | `/admin/resources` | Allows Management to add new locations dynamically. |
+| `PATCH`| `/admin/resource/{resource_id}/status` | Admin override to manually update resource status. |
 
 </div>
 
@@ -127,7 +130,18 @@ The backend exposes several critical endpoints for frontend integration:
 To deploy the project locally, follow these standardized steps:
 
 ### Backend Configuration:
+Navigate to the backend directory and start the server:
 ```bash
-pip install fastapi uvicorn sqlalchemy
+cd Backend
+pip install fastapi uvicorn sqlalchemy python-dateutil
 python main.py
+```
+*(The API documentation will be available at http://127.0.0.1:8000/docs)*
+
+### Frontend Configuration:
+Navigate to the frontend directory, install dependencies, and start the development server:
+```bash
+cd Frontend
+npm install
+npm run dev
 ```
